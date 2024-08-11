@@ -48,7 +48,7 @@
       "executor": "@nrwl/webpack:dev-server",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "checkout:build",
+        "buildTarget": "checkout:build:development",
         "hmr": true,
         "port": 4201,
         "baseHref": "/checkout/"

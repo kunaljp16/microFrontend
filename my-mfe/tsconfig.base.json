@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@ebay/mocks": ["libs/mocks/src/index.ts"],
       "@ebay/ui": ["libs/ui/src/index.ts"]
     }
   },

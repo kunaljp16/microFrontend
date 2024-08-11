@@ -51,7 +51,7 @@
         "buildTarget": "catalog:build",
         "hmr": true,
         "port": 4200,
-        "proxyConfig": "apps/catalog/proxy.config.json"
+        "proxyConfig": "apps/catalog/proxy.conf.json"
       },
       "configurations": {
         "development": {
