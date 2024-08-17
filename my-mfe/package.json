@@ -16,7 +16,8 @@
     "regenerator-runtime": "0.13.7",
     "semantic-ui-css": "^2.5.0",
     "semantic-ui-react": "^2.1.5",
-    "tslib": "^2.3.0"
+    "tslib": "^2.3.0",
+    "usehooks-ts": "^3.1.0"
   },
   "devDependencies": {
     "@nrwl/cli": "14.8.9",

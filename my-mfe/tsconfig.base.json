@@ -15,8 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@ebay/custom-hooks": ["libs/custom-hooks/src/index.ts"],
       "@ebay/mocks": ["libs/mocks/src/index.ts"],
-      "@ebay/ui": ["libs/ui/src/index.ts"]
+      "@ebay/ui": ["libs/ui/src/index.ts"],
+      "@ebay/utils": ["libs/utils/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
