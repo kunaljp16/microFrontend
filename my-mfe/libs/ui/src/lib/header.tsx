@@ -1,4 +1,5 @@
 import { Menu, Container, Icon, Label } from 'semantic-ui-react';
+import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { useEventListener } from 'usehooks-ts';
 import { getSessionStorage } from '@ebay/utils';
@@ -47,7 +48,7 @@ const MenuItems = () => {
     <>
       {NAV_ITEMS.map((navItem, index) => (
         <Menu.Item key={index}>
-          <a href={navItem.href ?? '#'}>{navItem.label}</a>
+          <Link to={navItem.href ?? '#'}>{navItem.label}</Link>
         </Menu.Item>
       ))}
     </>

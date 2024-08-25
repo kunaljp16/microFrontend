@@ -23,7 +23,6 @@ export function App() {
   const completeBasket = createCompleteBasket(PRODUCT_LIST_MOCKS, basketFromStorage);
   return (
     <Container style={{ marginTop: '5em' }}>
-      <Header />
       <Text size="huge">Checkout App</Text>
       <ShoppingBasket basketList={completeBasket} />
     </Container>

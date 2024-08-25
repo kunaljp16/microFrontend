@@ -6,7 +6,6 @@ import ProductList from './product-list';
 export function App() {
   return (
     <Container style={{ marginTop: '5em' }}>
-      <Header />
       <Text size="huge">Catalog App</Text>
       <ProductList />
     </Container>
